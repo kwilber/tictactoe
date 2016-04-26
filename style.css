@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Anton);
+body {
+  width: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+}
+
+#main_container {
+	margin: 10px auto;
+	width: 600px;
+}
+table {
+  margin: 0px auto;
+  border: 0;
+  
+
+
+
+}
+td[data-row="0"]{
+  border:0;
+}
+td[data-row="0"][data-col="0"]{
+
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+td[data-row="0"][data-col="1"]{
+  border-bottom: 1px solid #ccc;
+}
+
+td[data-row="0"][data-col="2"]{
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+td[data-row="1"]{
+  border-bottom: 1px solid #ccc;
+}
+td[data-row="1"][data-col="0"], td[data-row="2"][data-col="0"]{
+  border-right: 1px solid #ccc;
+}
+td[data-row="1"][data-col="2"], td[data-row="2"][data-col="2"]{
+  border-left: 1px solid #ccc;
+}
+border-left:  1px solid #ccc;
+}
+td{
+  border:0;
+}
+}
+h1 {
+  
+
+  font-size: 50px;
+  
+}
+h1, h2{
+	text-align: center;
+	color: #F00;
+	}
+
+
+
+
+.cells {
+	cursor:pointer;
+	
+	width: 150px;
+	height: 150px;
+   font-size: 5em;
+ 
+  font-family: 'Anton', sans-serif;
+}
+
+.hover {
+  background-color: #ccc !important;
+}
+
+.x {
+	text-align:center;
+ 	color:coral;
+  text-shadow: -1px -1px 0 #222,
+    1px -1px 0 #222,
+    -1px 1px 0 #222,
+    1px 1px 0 #222;
+}
+
+.o {
+	text-align:center;
+	color:#222;
+  text-shadow: -1px -1px 0 #ccc,
+    1px -1px 0 #ccc,
+    -1px 1px 0 #ccc,
+    1px 1px 0 #ccc;
+}
+
+
+
+
+
+
